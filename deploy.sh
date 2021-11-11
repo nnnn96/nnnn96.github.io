@@ -32,8 +32,10 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # echo 'google.com, pub-7828333725993554, DIRECT, f08c47fec0942fa0' > ads.txt # 谷歌广告相关文件
 
  if [ -z "$GITEE_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+   msg='==============进入到GITEE啦============'
    codingUrl=git@gitee.com:nnnn96/nnnn96.git
  else
+	msg='==============else语句 进入到GITEE啦============'
    codingUrl=https://nnnn96:${GITEE_TOKEN}@gitee.com:nnnn96/nnnn96.git
  fi
  git add -A
