@@ -35,7 +35,6 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
    codingUrl=git@gitee.com:nnnn96/nnnn96.git
  else
    codingUrl=https://nnnn96:${GITEE_TOKEN}@gitee.com:nnnn96/nnnn96.git
-   
  fi
  git add -A
  git commit -m "${msg}"
