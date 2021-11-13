@@ -27,12 +27,6 @@ jobs:
         uses: actions/setup-node@v1 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
-          
-    #  - name: run deploy.sh # 步骤3
-    #    env: # 设置环境变量
-     #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
- #         GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-    #    run: npm install && npm run deploy
 
     - name: Install and Build # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
