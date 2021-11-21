@@ -7,7 +7,7 @@ module.exports = {
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
   title: "Niuzx's blog",
-  description: '小牛的技术博客，在人群中默默地做一个小透明',
+  description: '越努力，越幸运',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号

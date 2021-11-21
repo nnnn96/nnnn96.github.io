@@ -41,12 +41,14 @@ module.exports = [
       },
     ],
   },
-  {
-    text: '页面',
-    link: '/ui/',
+    {
+    text: '基本功',
+    link: '/technology/',
     items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: '网络', link: '/pages/9a7ee40fc232253e/' },
+      { text: '算法', link: '/pages/4c778760be26d8b3/' },
+      { text: '设计模式', link: '/pages/117708e0af7f0bd9/' },
+      { text: '架构设计', link: '/pages/41f87d890d0a02af/' },
     ],
   },
   {
@@ -57,20 +59,63 @@ module.exports = [
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+	  
+	  {
+        text: '中间件',
+        items: [
+          { text: 'Redis', link: '/note/javascript/' },
+          { text: 'RabbitMQ', link: '/note/js/' },
+          { text: '《ES6 教程》', link: '/note/es6/' },
+          { text: '《Vue》', link: '/note/vue/' },
+          { text: '《React》', link: '/note/react/' },
+          {
+            text: '《TypeScript 从零实现 axios》',
+            link: '/note/typescript-axios/',
+          },
+          {
+            text: '《Git》',
+            link: '/note/git/',
+          },
+          {
+            text: 'TypeScript',
+            link: '/pages/51afd6/',
+          },
+          {
+            text: 'JS设计模式总结',
+            link: '/pages/4643cd/',
+          },
+        ],
+      },
+    ],
+
+  },
+    {
+    text: '面试',
+    link: '/technology/',
+    items: [
+      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
+      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
+      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+    ],
+  },
+    {
+    text: '投资',
+    link: '/moneny/',
+    items: [
+      { text: '投资感悟', link: '/pages/9a7ee40fc232253e/' },
+      { text: '读书笔记', link: '/pages/4c778760be26d8b3/' },
     ],
   },
   {
     text: '更多',
     link: '/more/',
     items: [
-      { text: '学习', link: '/pages/f2a556/' },
-      { text: '面试', link: '/pages/aea6571b7a8bae86/' },
+	  { text: '学习方法', link: '/pages/baaa02/' },
       { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-      { text: '实用技巧', link: '/pages/baaa02/' },
       { text: '友情链接', link: '/friends/' },
     ],
   },
-  { text: '关于', link: '/about/' },
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
@@ -89,4 +134,5 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+  { text: '关于', link: '/about/' },
 ]
