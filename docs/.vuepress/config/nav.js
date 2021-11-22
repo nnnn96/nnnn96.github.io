@@ -42,7 +42,7 @@ module.exports = [
     ],
   },
     {
-    text: '基本功',
+    text: '道',
     link: '/technology/',
     items: [
       { text: '网络', link: '/pages/9a7ee40fc232253e/' },
@@ -52,7 +52,7 @@ module.exports = [
     ],
   },
   {
-    text: '技术',
+    text: '术',
     link: '/technology/',
     items: [
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },

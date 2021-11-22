@@ -57,8 +57,8 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/nnnn96/images@main/202111211724585.jpg',
-    name: '26',
-    slogan: '行动是克服焦虑的良药',
+    name: 'nn',
+    slogan: '临渊羡鱼，不如退而结网',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
