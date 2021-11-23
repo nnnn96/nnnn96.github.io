@@ -57,7 +57,7 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://cdn.jsdelivr.net/gh/nnnn96/images@main/202111211724585.jpg',
-    name: 'nn',
+    name: 'Niuzx',
     slogan: '临渊羡鱼，不如退而结网',
   },
   social: {

@@ -19,28 +19,28 @@
  */
 
 module.exports = {
-  homeSidebarB:
-    `<script async src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <div style="padding: 0.95rem">
-        <p style="
-          color: var(--textColor);
-          opacity: 0.9;
-          font-size: 20px;
-          font-weight: bold;
-          margin: 0 0 8px 0;
-        ">每日诗词</p>
-        <div id="poem_sentence"></div>
-        <div id="poem_info"></div>
-    </div>
-    <script>
-        jinrishici.load(function (result) {
-            var sentence = document.querySelector("#poem_sentence")
-            var info = document.querySelector("#poem_info")
-            sentence.innerHTML = result.data.content
-            info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-        });
-    </script>
-	`,
+//  homeSidebarB:
+//    `<script async src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+//    <div style="padding: 0.95rem">
+//        <p style="
+//          color: var(--textColor);
+//          opacity: 0.9;
+//          font-size: 20px;
+//          font-weight: bold;
+//          margin: 0 0 8px 0;
+//        ">每日诗词</p>
+//        <div id="poem_sentence"></div>
+//        <div id="poem_info"></div>
+//    </div>
+//    <script>
+//        jinrishici.load(function (result) {
+//            var sentence = document.querySelector("#poem_sentence")
+ //           var info = document.querySelector("#poem_info")
+//            sentence.innerHTML = result.data.content
+//            info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+//        });
+//    </script>
+//	`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
   //     style="display:block;padding: 0.95rem;"
